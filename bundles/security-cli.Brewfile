@@ -1,5 +1,4 @@
 # Epic Igniter C9 bundle: security-cli
-tap "terraform-linters/tap"
 
 brew "age"
 brew "cosign"
@@ -8,5 +7,4 @@ brew "grype"
 brew "hadolint"
 brew "sops"
 brew "syft"
-brew "terraform-linters/tap/tflint"
 brew "trivy"

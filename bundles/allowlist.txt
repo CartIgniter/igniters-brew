@@ -4,7 +4,6 @@
 
 tap:hashicorp/tap
 tap:oven-sh/bun
-tap:terraform-linters/tap
 
 brew:age
 brew:bat
@@ -51,7 +50,6 @@ brew:stern
 brew:syft
 brew:hashicorp/tap/terraform
 brew:terragrunt
-brew:terraform-linters/tap/tflint
 brew:tree
 brew:trivy
 brew:unzip
