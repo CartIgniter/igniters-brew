@@ -1,0 +1,39 @@
+{
+  "version": "2026.05.28.1",
+  "defaultBundle": "base-cli",
+  "bundles": {
+    "base-cli": {
+      "file": "base-cli.Brewfile",
+      "owner": "IT",
+      "assignment": "Core team Macs",
+      "description": "General developer command-line utilities.",
+      "allowCasks": false,
+      "cleanup": false
+    },
+    "cloud-cli": {
+      "file": "cloud-cli.Brewfile",
+      "owner": "Platform",
+      "assignment": "Cloud and infrastructure engineers",
+      "description": "Infrastructure tooling not already installed by C8.",
+      "allowCasks": false,
+      "cleanup": false
+    },
+    "dev-web": {
+      "file": "dev-web.Brewfile",
+      "owner": "Engineering",
+      "assignment": "Application developers",
+      "description": "Web development helpers layered on top of C6 Node/npm.",
+      "allowCasks": false,
+      "cleanup": false
+    },
+    "data-cli": {
+      "file": "data-cli.Brewfile",
+      "owner": "Data",
+      "assignment": "Data and analytics engineers",
+      "description": "Local data tooling for approved developer workflows.",
+      "allowCasks": false,
+      "cleanup": false
+    }
+  }
+}
+

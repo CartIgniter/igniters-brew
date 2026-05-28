@@ -1,0 +1,42 @@
+# Epic Igniter managed Homebrew allowlist.
+# Format: type:name
+# Supported types in C9: tap, brew, cask, vscode, mas
+
+tap:homebrew/bundle
+tap:homebrew/cask
+
+brew:bat
+brew:curl
+brew:direnv
+brew:duckdb
+brew:fd
+brew:ffmpeg
+brew:fzf
+brew:git-lfs
+brew:helm
+brew:htop
+brew:httpie
+brew:jq
+brew:k9s
+brew:mas
+brew:mise
+brew:mkcert
+brew:neovim
+brew:pnpm
+brew:postgresql@16
+brew:ripgrep
+brew:shellcheck
+brew:shfmt
+brew:stern
+brew:terraform
+brew:terragrunt
+brew:tree
+brew:watch
+brew:watchman
+brew:wget
+brew:yq
+
+vscode:dbaeumer.vscode-eslint
+vscode:editorconfig.editorconfig
+vscode:esbenp.prettier-vscode
+
