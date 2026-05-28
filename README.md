@@ -13,6 +13,9 @@ bundles/
   cloud-cli.Brewfile
   data-cli.Brewfile
   dev-web.Brewfile
+  dev-gui.Brewfile
+  mobile-ios.Brewfile
+  security-cli.Brewfile
 ```
 
 ## Mosyle Variables
@@ -20,7 +23,7 @@ bundles/
 ```text
 EPICIGNITER_BREW_BUNDLE=base-cli
 EPICIGNITER_BREW_BUNDLE_REPO=https://github.com/CartIgniter/igniters-brew.git
-EPICIGNITER_BREW_BUNDLE_REF=v2026.05.28.1
+EPICIGNITER_BREW_BUNDLE_REF=v2026.05.28.2
 EPICIGNITER_BREW_NO_UPGRADE=1
 EPICIGNITER_HOMEBREW_BOOTSTRAP=0
 ```

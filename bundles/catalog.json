@@ -1,5 +1,5 @@
 {
-  "version": "2026.05.28.1",
+  "version": "2026.05.28.2",
   "defaultBundle": "base-cli",
   "bundles": {
     "base-cli": {
@@ -26,6 +26,14 @@
       "allowCasks": false,
       "cleanup": false
     },
+    "mobile-ios": {
+      "file": "mobile-ios.Brewfile",
+      "owner": "Mobile",
+      "assignment": "iOS and React Native developers",
+      "description": "Mobile development dependencies managed outside Xcode and Apple Business Manager.",
+      "allowCasks": false,
+      "cleanup": false
+    },
     "data-cli": {
       "file": "data-cli.Brewfile",
       "owner": "Data",
@@ -33,7 +41,22 @@
       "description": "Local data tooling for approved developer workflows.",
       "allowCasks": false,
       "cleanup": false
+    },
+    "security-cli": {
+      "file": "security-cli.Brewfile",
+      "owner": "Security",
+      "assignment": "Developers handling production, IaC, or container work",
+      "description": "Secret scanning, signing, SBOM, image scanning, and IaC linting tools.",
+      "allowCasks": false,
+      "cleanup": false
+    },
+    "dev-gui": {
+      "file": "dev-gui.Brewfile",
+      "owner": "IT",
+      "assignment": "Self-Service only; casks require explicit Mosyle opt-in",
+      "description": "Optional GUI developer casks. Do not use for baseline or privileged/security apps.",
+      "allowCasks": true,
+      "cleanup": false
     }
   }
 }
-
