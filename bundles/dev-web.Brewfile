@@ -1,5 +1,4 @@
 # Epic Igniter C9 bundle: dev-web
-tap "homebrew/bundle"
 tap "oven-sh/bun"
 
 brew "deno"

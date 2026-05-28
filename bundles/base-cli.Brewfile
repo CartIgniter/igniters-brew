@@ -1,5 +1,4 @@
 # Epic Igniter C9 bundle: base-cli
-tap "homebrew/bundle"
 
 brew "bat"
 brew "ca-certificates"

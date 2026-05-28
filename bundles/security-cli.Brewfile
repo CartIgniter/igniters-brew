@@ -1,5 +1,4 @@
 # Epic Igniter C9 bundle: security-cli
-tap "homebrew/bundle"
 tap "terraform-linters/tap"
 
 brew "age"

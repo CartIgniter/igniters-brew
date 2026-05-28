@@ -1,5 +1,4 @@
 # Epic Igniter C9 bundle: cloud-cli
-tap "homebrew/bundle"
 tap "hashicorp/tap"
 tap "terraform-linters/tap"
 

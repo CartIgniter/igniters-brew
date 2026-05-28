@@ -2,8 +2,6 @@
 # Format: type:name
 # Supported types in C9: tap, brew, cask, vscode, mas
 
-tap:homebrew/bundle
-tap:homebrew/cask
 tap:hashicorp/tap
 tap:oven-sh/bun
 tap:terraform-linters/tap
